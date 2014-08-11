@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC6246419995A22000D396B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6246319995A22000D396B /* main.m */; };
+		1CC6246719995A22000D396B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6246619995A22000D396B /* AppDelegate.m */; };
+		1CC6246919995A22000D396B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6246819995A22000D396B /* Images.xcassets */; };
+		1CC6246C19995A22000D396B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6246A19995A22000D396B /* MainMenu.xib */; };
+		1CC6247819995A23000D396B /* Cal_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6247719995A23000D396B /* Cal_3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CC6247219995A23000D396B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6245619995A22000D396B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC6245D19995A22000D396B;
+			remoteInfo = "Cal-3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC6245E19995A22000D396B /* Cal-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cal-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC6246219995A22000D396B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC6246319995A22000D396B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CC6246519995A22000D396B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CC6246619995A22000D396B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CC6246819995A22000D396B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CC6246B19995A22000D396B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1CC6247119995A23000D396B /* Cal-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cal-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC6247619995A23000D396B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CC6247719995A23000D396B /* Cal_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cal_3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CC6245B19995A22000D396B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC6246E19995A23000D396B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC6245519995A22000D396B = {
+			isa = PBXGroup;
+			children = (
+				1CC6246019995A22000D396B /* Cal-3 */,
+				1CC6247419995A23000D396B /* Cal-3Tests */,
+				1CC6245F19995A22000D396B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC6245F19995A22000D396B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6245E19995A22000D396B /* Cal-3.app */,
+				1CC6247119995A23000D396B /* Cal-3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC6246019995A22000D396B /* Cal-3 */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6246519995A22000D396B /* AppDelegate.h */,
+				1CC6246619995A22000D396B /* AppDelegate.m */,
+				1CC6246819995A22000D396B /* Images.xcassets */,
+				1CC6246A19995A22000D396B /* MainMenu.xib */,
+				1CC6246119995A22000D396B /* Supporting Files */,
+			);
+			path = "Cal-3";
+			sourceTree = "<group>";
+		};
+		1CC6246119995A22000D396B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6246219995A22000D396B /* Info.plist */,
+				1CC6246319995A22000D396B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CC6247419995A23000D396B /* Cal-3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6247719995A23000D396B /* Cal_3Tests.m */,
+				1CC6247519995A23000D396B /* Supporting Files */,
+			);
+			path = "Cal-3Tests";
+			sourceTree = "<group>";
+		};
+		1CC6247519995A23000D396B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC6247619995A23000D396B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CC6245D19995A22000D396B /* Cal-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC6247B19995A23000D396B /* Build configuration list for PBXNativeTarget "Cal-3" */;
+			buildPhases = (
+				1CC6245A19995A22000D396B /* Sources */,
+				1CC6245B19995A22000D396B /* Frameworks */,
+				1CC6245C19995A22000D396B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cal-3";
+			productName = "Cal-3";
+			productReference = 1CC6245E19995A22000D396B /* Cal-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CC6247019995A23000D396B /* Cal-3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC6247E19995A23000D396B /* Build configuration list for PBXNativeTarget "Cal-3Tests" */;
+			buildPhases = (
+				1CC6246D19995A23000D396B /* Sources */,
+				1CC6246E19995A23000D396B /* Frameworks */,
+				1CC6246F19995A23000D396B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CC6247319995A23000D396B /* PBXTargetDependency */,
+			);
+			name = "Cal-3Tests";
+			productName = "Cal-3Tests";
+			productReference = 1CC6247119995A23000D396B /* Cal-3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC6245619995A22000D396B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Roman Radetskiy";
+				TargetAttributes = {
+					1CC6245D19995A22000D396B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1CC6247019995A23000D396B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1CC6245D19995A22000D396B;
+					};
+				};
+			};
+			buildConfigurationList = 1CC6245919995A22000D396B /* Build configuration list for PBXProject "Cal-3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC6245519995A22000D396B;
+			productRefGroup = 1CC6245F19995A22000D396B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC6245D19995A22000D396B /* Cal-3 */,
+				1CC6247019995A23000D396B /* Cal-3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CC6245C19995A22000D396B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC6246919995A22000D396B /* Images.xcassets in Resources */,
+				1CC6246C19995A22000D396B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC6246F19995A23000D396B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC6245A19995A22000D396B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC6246719995A22000D396B /* AppDelegate.m in Sources */,
+				1CC6246419995A22000D396B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC6246D19995A23000D396B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC6247819995A23000D396B /* Cal_3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC6247319995A23000D396B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC6245D19995A22000D396B /* Cal-3 */;
+			targetProxy = 1CC6247219995A23000D396B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CC6246A19995A22000D396B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC6246B19995A22000D396B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CC6247919995A23000D396B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1CC6247A19995A23000D396B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1CC6247C19995A23000D396B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cal-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CC6247D19995A23000D396B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cal-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CC6247F19995A23000D396B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cal-3.app/Contents/MacOS/Cal-3";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cal-3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1CC6248019995A23000D396B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cal-3.app/Contents/MacOS/Cal-3";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cal-3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CC6245919995A22000D396B /* Build configuration list for PBXProject "Cal-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC6247919995A23000D396B /* Debug */,
+				1CC6247A19995A23000D396B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC6247B19995A23000D396B /* Build configuration list for PBXNativeTarget "Cal-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC6247C19995A23000D396B /* Debug */,
+				1CC6247D19995A23000D396B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CC6247E19995A23000D396B /* Build configuration list for PBXNativeTarget "Cal-3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC6247F19995A23000D396B /* Debug */,
+				1CC6248019995A23000D396B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC6245619995A22000D396B /* Project object */;
+}
