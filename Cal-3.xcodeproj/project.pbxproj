@@ -7,14 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4ED231199CC06600730033 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C4ED230199CC06600730033 /* IOKit.framework */; };
+		1C4FB8D7199BFB0400D0049D /* DicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FB8D6199BFB0400D0049D /* DicColor.m */; };
+		1C55E55E199E1469003D1EF2 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C55E55D199E1469003D1EF2 /* GraphicsView.m */; };
+		1C76D4C2199A2B43000093A5 /* SelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C76D4C1199A2B43000093A5 /* SelectionView.m */; };
+		1C9B0085199D4BF800C02C9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9B0084199D4BF800C02C9C /* QuartzCore.framework */; };
 		1CC6246419995A22000D396B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6246319995A22000D396B /* main.m */; };
 		1CC6246719995A22000D396B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6246619995A22000D396B /* AppDelegate.m */; };
 		1CC6246919995A22000D396B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6246819995A22000D396B /* Images.xcassets */; };
 		1CC6246C19995A22000D396B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC6246A19995A22000D396B /* MainMenu.xib */; };
 		1CC6247819995A23000D396B /* Cal_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6247719995A23000D396B /* Cal_3Tests.m */; };
+		1CC6249A1999785F000D396B /* DaysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC624991999785F000D396B /* DaysView.m */; };
+		1CC6249D1999787A000D396B /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6249C1999787A000D396B /* CalendarView.m */; };
+		1CC624A019997892000D396B /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6249F19997892000D396B /* CalendarViewController.m */; };
+		1CC624A4199978B7000D396B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC624A2199978B7000D396B /* ViewController.m */; };
+		1CC624A5199978B7000D396B /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC624A3199978B7000D396B /* CalendarViewController.xib */; };
+		1CC624AE19997A79000D396B /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC624A819997A79000D396B /* AXStatusItemPopup.m */; };
+		1CC624AF19997A79000D396B /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC624AA19997A79000D396B /* cloud.png */; };
+		1CC624B019997A79000D396B /* cloud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC624AB19997A79000D396B /* cloud@2x.png */; };
+		1CC624B119997A79000D396B /* cloudgrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC624AC19997A79000D396B /* cloudgrey.png */; };
+		1CC624B219997A79000D396B /* cloudgrey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CC624AD19997A79000D396B /* cloudgrey@2x.png */; };
+		1CE39665199D5D0300315D7F /* GraphicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CE39664199D5D0300315D7F /* GraphicViewController.xib */; };
+		1CE39668199D667700315D7F /* GraphicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE39667199D667700315D7F /* GraphicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1C27984019AA145F00778E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6245619995A22000D396B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC6245D19995A22000D396B;
+			remoteInfo = "Cal-3";
+		};
+		1C27984219AA148900778E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6245619995A22000D396B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC6245D19995A22000D396B;
+			remoteInfo = "Cal-3";
+		};
+		1C27984419AA148900778E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6245619995A22000D396B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC6245D19995A22000D396B;
+			remoteInfo = "Cal-3";
+		};
+		1C27984619AA156E00778E3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC6245619995A22000D396B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CC6245D19995A22000D396B;
+			remoteInfo = "Cal-3";
+		};
 		1CC6247219995A23000D396B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1CC6245619995A22000D396B /* Project object */;
@@ -25,6 +70,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C4ED230199CC06600730033 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		1C4FB8D5199BFB0400D0049D /* DicColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DicColor.h; path = CalendarView/DicColor.h; sourceTree = "<group>"; };
+		1C4FB8D6199BFB0400D0049D /* DicColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DicColor.m; path = CalendarView/DicColor.m; sourceTree = "<group>"; };
+		1C55E55C199E1469003D1EF2 /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsView.h; path = CalendarView/GraphicsView.h; sourceTree = "<group>"; };
+		1C55E55D199E1469003D1EF2 /* GraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphicsView.m; path = CalendarView/GraphicsView.m; sourceTree = "<group>"; };
+		1C76D4C0199A2B43000093A5 /* SelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectionView.h; path = CalendarView/SelectionView.h; sourceTree = "<group>"; };
+		1C76D4C1199A2B43000093A5 /* SelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectionView.m; path = CalendarView/SelectionView.m; sourceTree = "<group>"; };
+		1C9B0084199D4BF800C02C9C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1CC6245E19995A22000D396B /* Cal-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cal-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC6246219995A22000D396B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC6246319995A22000D396B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +88,25 @@
 		1CC6247119995A23000D396B /* Cal-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cal-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC6247619995A23000D396B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CC6247719995A23000D396B /* Cal_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cal_3Tests.m; sourceTree = "<group>"; };
+		1CC6249719997838000D396B /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Types.h; path = CalendarView/Types.h; sourceTree = "<group>"; };
+		1CC624981999785F000D396B /* DaysView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DaysView.h; path = CalendarView/DaysView.h; sourceTree = "<group>"; };
+		1CC624991999785F000D396B /* DaysView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DaysView.m; path = CalendarView/DaysView.m; sourceTree = "<group>"; };
+		1CC6249B1999787A000D396B /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarView.h; path = CalendarView/CalendarView.h; sourceTree = "<group>"; };
+		1CC6249C1999787A000D396B /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarView.m; path = CalendarView/CalendarView.m; sourceTree = "<group>"; };
+		1CC6249E19997892000D396B /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalendarViewController.h; path = CalendarView/CalendarViewController.h; sourceTree = "<group>"; };
+		1CC6249F19997892000D396B /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalendarViewController.m; path = CalendarView/CalendarViewController.m; sourceTree = "<group>"; };
+		1CC624A1199978B7000D396B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CC624A2199978B7000D396B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CC624A3199978B7000D396B /* CalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		1CC624A719997A79000D396B /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
+		1CC624A819997A79000D396B /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
+		1CC624AA19997A79000D396B /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		1CC624AB19997A79000D396B /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud@2x.png"; sourceTree = "<group>"; };
+		1CC624AC19997A79000D396B /* cloudgrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudgrey.png; sourceTree = "<group>"; };
+		1CC624AD19997A79000D396B /* cloudgrey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudgrey@2x.png"; sourceTree = "<group>"; };
+		1CE39664199D5D0300315D7F /* GraphicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphicViewController.xib; sourceTree = "<group>"; };
+		1CE39666199D667700315D7F /* GraphicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicViewController.h; sourceTree = "<group>"; };
+		1CE39667199D667700315D7F /* GraphicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9B0085199D4BF800C02C9C /* QuartzCore.framework in Frameworks */,
+				1C4ED231199CC06600730033 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,11 +129,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C9B0083199D4BD600C02C9C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1C9B0084199D4BF800C02C9C /* QuartzCore.framework */,
+				1C4ED230199CC06600730033 /* IOKit.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		1CC6245519995A22000D396B = {
 			isa = PBXGroup;
 			children = (
 				1CC6246019995A22000D396B /* Cal-3 */,
+				1CC62495199977D4000D396B /* CalendarView */,
 				1CC6247419995A23000D396B /* Cal-3Tests */,
+				1CC624A619997A79000D396B /* AXStatusItemPopup */,
+				1CC624A919997A79000D396B /* Resources */,
+				1C9B0083199D4BD600C02C9C /* Framework */,
 				1CC6245F19995A22000D396B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,9 +165,15 @@
 			children = (
 				1CC6246519995A22000D396B /* AppDelegate.h */,
 				1CC6246619995A22000D396B /* AppDelegate.m */,
+				1CC624A1199978B7000D396B /* ViewController.h */,
+				1CC624A2199978B7000D396B /* ViewController.m */,
+				1CE39666199D667700315D7F /* GraphicViewController.h */,
+				1CE39667199D667700315D7F /* GraphicViewController.m */,
+				1CC6246119995A22000D396B /* Supporting Files */,
+				1CC624A3199978B7000D396B /* CalendarViewController.xib */,
+				1CE39664199D5D0300315D7F /* GraphicViewController.xib */,
 				1CC6246819995A22000D396B /* Images.xcassets */,
 				1CC6246A19995A22000D396B /* MainMenu.xib */,
-				1CC6246119995A22000D396B /* Supporting Files */,
 			);
 			path = "Cal-3";
 			sourceTree = "<group>";
@@ -109,6 +202,46 @@
 				1CC6247619995A23000D396B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CC62495199977D4000D396B /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				1C55E55C199E1469003D1EF2 /* GraphicsView.h */,
+				1C55E55D199E1469003D1EF2 /* GraphicsView.m */,
+				1CC6249719997838000D396B /* Types.h */,
+				1CC624981999785F000D396B /* DaysView.h */,
+				1CC624991999785F000D396B /* DaysView.m */,
+				1C76D4C0199A2B43000093A5 /* SelectionView.h */,
+				1C76D4C1199A2B43000093A5 /* SelectionView.m */,
+				1CC6249B1999787A000D396B /* CalendarView.h */,
+				1CC6249C1999787A000D396B /* CalendarView.m */,
+				1CC6249E19997892000D396B /* CalendarViewController.h */,
+				1CC6249F19997892000D396B /* CalendarViewController.m */,
+				1C4FB8D5199BFB0400D0049D /* DicColor.h */,
+				1C4FB8D6199BFB0400D0049D /* DicColor.m */,
+			);
+			name = CalendarView;
+			sourceTree = "<group>";
+		};
+		1CC624A619997A79000D396B /* AXStatusItemPopup */ = {
+			isa = PBXGroup;
+			children = (
+				1CC624A719997A79000D396B /* AXStatusItemPopup.h */,
+				1CC624A819997A79000D396B /* AXStatusItemPopup.m */,
+			);
+			path = AXStatusItemPopup;
+			sourceTree = "<group>";
+		};
+		1CC624A919997A79000D396B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CC624AA19997A79000D396B /* cloud.png */,
+				1CC624AB19997A79000D396B /* cloud@2x.png */,
+				1CC624AC19997A79000D396B /* cloudgrey.png */,
+				1CC624AD19997A79000D396B /* cloudgrey@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +276,10 @@
 			);
 			dependencies = (
 				1CC6247319995A23000D396B /* PBXTargetDependency */,
+				1C27984119AA145F00778E3B /* PBXTargetDependency */,
+				1C27984319AA148900778E3B /* PBXTargetDependency */,
+				1C27984519AA148900778E3B /* PBXTargetDependency */,
+				1C27984719AA156E00778E3B /* PBXTargetDependency */,
 			);
 			name = "Cal-3Tests";
 			productName = "Cal-3Tests";
@@ -191,8 +328,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC624B219997A79000D396B /* cloudgrey@2x.png in Resources */,
+				1CE39665199D5D0300315D7F /* GraphicViewController.xib in Resources */,
 				1CC6246919995A22000D396B /* Images.xcassets in Resources */,
+				1CC624A5199978B7000D396B /* CalendarViewController.xib in Resources */,
 				1CC6246C19995A22000D396B /* MainMenu.xib in Resources */,
+				1CC624AF19997A79000D396B /* cloud.png in Resources */,
+				1CC624B119997A79000D396B /* cloudgrey.png in Resources */,
+				1CC624B019997A79000D396B /* cloud@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC624A4199978B7000D396B /* ViewController.m in Sources */,
+				1C4FB8D7199BFB0400D0049D /* DicColor.m in Sources */,
+				1CC6249A1999785F000D396B /* DaysView.m in Sources */,
 				1CC6246719995A22000D396B /* AppDelegate.m in Sources */,
+				1C55E55E199E1469003D1EF2 /* GraphicsView.m in Sources */,
+				1CE39668199D667700315D7F /* GraphicViewController.m in Sources */,
+				1CC6249D1999787A000D396B /* CalendarView.m in Sources */,
+				1CC624AE19997A79000D396B /* AXStatusItemPopup.m in Sources */,
+				1CC624A019997892000D396B /* CalendarViewController.m in Sources */,
 				1CC6246419995A22000D396B /* main.m in Sources */,
+				1C76D4C2199A2B43000093A5 /* SelectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +378,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1C27984119AA145F00778E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC6245D19995A22000D396B /* Cal-3 */;
+			targetProxy = 1C27984019AA145F00778E3B /* PBXContainerItemProxy */;
+		};
+		1C27984319AA148900778E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC6245D19995A22000D396B /* Cal-3 */;
+			targetProxy = 1C27984219AA148900778E3B /* PBXContainerItemProxy */;
+		};
+		1C27984519AA148900778E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC6245D19995A22000D396B /* Cal-3 */;
+			targetProxy = 1C27984419AA148900778E3B /* PBXContainerItemProxy */;
+		};
+		1C27984719AA156E00778E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CC6245D19995A22000D396B /* Cal-3 */;
+			targetProxy = 1C27984619AA156E00778E3B /* PBXContainerItemProxy */;
+		};
 		1CC6247319995A23000D396B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1CC6245D19995A22000D396B /* Cal-3 */;
@@ -279,7 +451,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -315,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -328,6 +500,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Cal-3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -339,6 +512,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Cal-3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -400,6 +574,7 @@
 				1CC6247D19995A23000D396B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CC6247E19995A23000D396B /* Build configuration list for PBXNativeTarget "Cal-3Tests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +583,7 @@
 				1CC6248019995A23000D396B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
