@@ -378,8 +378,34 @@ NSString *const  RAMMouseGraphNotification = @"RAMMouseGraphNotification";
     // NSColor* darkColor = [NSColor colorWithRed: 0 green: 0 blue: 0 alpha: 0.72];
     NSColor* boxStroke =  [NSColor colorWithCalibratedWhite:0.563 alpha:1.000];
     
-    NSBezierPath *roundedRectanglePathUp = [NSBezierPath bezierPath];
+    NSBezierPath *closeUp = [NSBezierPath bezierPath];
     
+    [closeUp moveToPoint: CGPointMake(90, 280)];
+    
+    //bottom right corner
+    [closeUp lineToPoint: CGPointMake(115, 280)];
+    
+    
+    //top right corner
+    [closeUp lineToPoint: CGPointMake(115, 295)];
+    
+    
+    [closeUp lineToPoint: CGPointMake(90, 295)];
+    
+    [closeUp lineToPoint: CGPointMake(90, 280)];
+    
+    //NSLog(@"did not add extra row");
+    [closeUp closePath];
+    
+    [backgroundLightColor setFill];
+    [closeUp fill];
+    
+    [boxStroke setStroke];
+    closeUp.lineWidth = 1.5;
+    
+    [closeUp stroke];
+    
+    NSBezierPath *roundedRectanglePathUp = [NSBezierPath bezierPath];
     //float arrowPosX = 208;
     //bottom left corner
     [roundedRectanglePathUp moveToPoint: CGPointMake(2,265.4)];

@@ -73,10 +73,10 @@
 - (void)completedWithStartDate:(NSDate *)startDate endDate:(NSDate *)endDate {
     NSDateFormatter *df = [[NSDateFormatter alloc] init];
     [df setDateStyle:NSDateFormatterShortStyle];
-   //  NSLog(@"startDate:%@, endDate2:%@", [df stringFromDate:startDate], [df stringFromDate:endDate]);
-
-    [self showToolTip:[NSString stringWithFormat:@"%@ - %@", [df stringFromDate:startDate], [df stringFromDate:endDate]]];
     [dicColor setColorDic:[df stringFromDate:startDate]];
+
+    //NSLog(@"startDate:%@, endDate2:%@", [df stringFromDate:startDate], [df stringFromDate:endDate]);
+    //[self showToolTip:[NSString stringWithFormat:@"%@ - %@", [df stringFromDate:startDate], [df stringFromDate:endDate]]];
 }
 
 - (void)showToolTip:(NSString *)str {

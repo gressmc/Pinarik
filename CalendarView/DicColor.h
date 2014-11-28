@@ -16,9 +16,8 @@ extern NSString *const RAMDateColorRedKey;
 
 @interface DicColor : NSObject {
     NSInteger *colorCheck;
-    
-    
 }
+
 @property NSInteger *colorCheck;
 
 +(NSArray *) savedGreen;

@@ -31,7 +31,6 @@
     
     _statusItemPopup = [[AXStatusItemPopup alloc] initWithViewController:contentViewController image:image alternateImage:alternateImage];
     
-   // _statusItemPopup = [[AXStatusItemPopup alloc] initWithViewController:contentViewController2 image:image alternateImage:alternateImage];
     self.viewController2 = [[GraphicViewController alloc] initWithNibName:@"GraphicViewController" bundle:nil];
     self.window.contentViewController = self.viewController2;
     [self.window makeMainWindow];
@@ -52,10 +51,6 @@
 -(void)showWin{
     [NSApp activateIgnoringOtherApps:YES];
     [_window makeKeyAndOrderFront:nil];
-}
-
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
 }
 
 @end
