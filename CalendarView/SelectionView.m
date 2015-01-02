@@ -100,7 +100,7 @@ NSString *const  RAMMouseUpNotification = @"RAMMouseUpNotification";
             CGContextRestoreGState(context);
             
             CGContextSaveGState(context);
-                        [darkColor setStroke];
+            [darkColor setStroke];
             selectedRectPath.lineWidth = .5;
             [selectedRectPath stroke];
             CGContextRestoreGState(context);
